@@ -1,0 +1,9 @@
+{
+  "namespace" : "com.example",
+  "type" : "record",
+  "name" : "BalanceOnHandUpdateEvent",
+  "fields" : [
+    {"name":"reasonCode","type":"string"},
+    {"name":"delta","type":"double","default":0.0}
+  ]
+}

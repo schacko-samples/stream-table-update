@@ -1,0 +1,11 @@
+{
+  "namespace" : "com.example",
+  "type" : "record",
+  "name" : "BalanceOnHandSummaryEvent",
+  "fields" : [
+    {"name":"delta","type":"double","default":0.0},
+    {"name":"field1","type":"int","default":0},
+    {"name":"field2","type":"int","default":0},
+    {"name":"field3","type":"int","default":0}
+  ]
+}
